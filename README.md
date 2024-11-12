@@ -20,7 +20,7 @@ LinkedInAutoConnect
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/LinkedInAutoConnect.git
+   git clone https://github.com/yourusername/LinkedIn-AutoConnect-Extension.git
    ```
 
 2. **Load the extension in Chrome**:
