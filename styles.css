@@ -1,0 +1,62 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Light blue background */
+  margin: 0;
+}
+
+.container {
+  width: 220px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+  width: 80px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+#start-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#start-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#stop-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+#stop-button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+/* Status text styling */
+p {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}

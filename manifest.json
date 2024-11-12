@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Linked AutoConnect Sender",
+    "version": "1.1",
+    "description": "Automates sending LinkedIn connection requests.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.linkedin.com/search/results/people/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
+  
