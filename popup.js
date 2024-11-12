@@ -27,12 +27,12 @@ document.getElementById('stop-button').addEventListener('click', () => {
   document.getElementById('status').textContent = "Stopped.";
 });
 
-// Listen for the "allClicked" message to reset the buttons only once
+
 chrome.runtime.onMessage.addListener((message) => {
     if (message.action === "allClicked") {
       document.getElementById('start-button').disabled = false;
       document.getElementById('stop-button').disabled = true;
       document.getElementById('status').textContent = "All connection requests sent.";
-      console.log("All buttons are clicked.");  // Log to console
+      console.log("All buttons are clicked."); 
     }
 });
